@@ -1,6 +1,6 @@
-# Dileep's Personal Portfolio Website
+# Personal Portfolio Website
 
-Welcome to the source code of **Dileep's Personal Portfolio Website** – a modern, responsive, and animated personal website designed to showcase skills, projects, achievements, and contact information in an engaging and professional manner.
+Welcome to the source code of **Personal Portfolio Website** – a modern, responsive, and animated personal website designed to showcase skills, projects, achievements, and contact information in an engaging and professional manner.
 
 ## Live Preview
 
