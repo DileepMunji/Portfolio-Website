@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init({
+                publicKey: "5_T5GqvOkntYE8Aq5",
+            });
+        })();
+    </script>
+    <link rel="stylesheet" href="portfolio.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <h1 class="logo"><span class="logo-span">D</span>ileep.</h1>
+            </a>
+            <button class="navbar-toggler mb-2" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto mr-4">
+                    <a class="nav-link active mr-3" id="navItem1" href="#homeSection">
+                        <span class="nav-text">Home</span>
+                    </a>
+                    <a class="nav-link mr-3" id="navItem2" href="#aboutSection"><span class="nav-text">About</span></a>
+                    <a class="nav-link mr-3" id="navItem3" href="#projectsSection"><span class="nav-text">Projects</span></a>
+                    <a class="nav-link" id="navItem5" href="#contactSection"><span class="nav-text">Contact</span></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid banner-section-bg-container mt-5  d-flex align-items-center" id="homeSection">
+        <div class="container text-white">
+            <div class="row">
+                <div class="col-12 col-md-10 col-lg-12">
+                    <p class="role display-4 font-weight-normal mb-3">Aspiring Full Stack Developer</p>
+                    <h1 class="about-me h1 font-weight-bold">
+                        Hi, I'm <span class="dileep-span">Dileep</span><br />
+                        Munji from Visakhapatnam, India
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid banner-section-bg-container pb-5 d-flex align-items-center" id="aboutSection">
+        <div class="container text-white">
+            <div class="row justify-content-start">
+                <div class="col-12 col-md-5 mb-2">
+                    <div>
+                        <img src="https://res.cloudinary.com/dly0zupcj/image/upload/v1745407994/WhatsApp_Image_2025-04-23_at_5.00.06_PM_ei2tpx.jpg" class="profile-img" />
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="about-me-section mb-2">
+                        <h1 class="about-me-title">About Me</h1>
+                        <p class="about-me-description">I am Munji Dileep, a second-year Information Technology student with a strong passion for technology and continuous learning. I specialize in web development, with expertise in HTML, CSS, Bootstrap, JavaScript, and MySQL, which allows me to create responsive,dynamic user-friendly websites. My journey in technology includes participating in a web hackathon during my first year, where I applied my skills in a competitive, real-world environment. I am always seeking opportunities to grow and contribute, with a focus on exploring the potential of digital technologies. My goal is to stay at the forefront of technological advancements and to contribute to creating innovative solutions that have a meaningful impact.
+                        </p>
+                    </div>
+                    <div class="d-flex flex-row mb-4">
+                        <button class="about-me-section-tabs" id="skillsButton">
+                            Skills
+                        </button>
+                        <button class="about-me-section-tabs" id="certificationsButton">
+                            Certifications
+                        </button>
+                        <button class="about-me-section-tabs" id="educationButton">
+                            Education
+                        </button>
+                        <button class="about-me-section-tabs" id="achievementsButton">
+                            Achievements
+                        </button>
+                    </div>
+                    <div>
+                        <div id="skillsTab">
+                            <span class="skill-type">Frontend Development</span><br />
+                            <li class="skill-name">HTML</li>
+                            <li class="skill-name">CSS</li>
+                            <li class="skill-name">JavaScript</li>
+                            <li class="skill-name">Bootstrap</li>
+
+                        </div>
+                        <div class="d-none" id="certificationsTab">
+                            <p class="skill-name"> <span class="skill-type">Oct-Dec 2023</span><br /> Building Static Websites</p>
+                            <p class="skill-name"> <span class="skill-type">Jan-Mar 2023</span><br /> Building Responsive Websites</p>
+                            <p class="skill-name"> <span class="skill-type">Jan-Mar 2025</span><br /> Dynamic Websites</p>
+                        </div>
+                        <div class="d-none" id="educationTab">
+                            <p class="skill-name"> <span class="skill-type">2023-2027</span><br />Anil Neerukonda Institute Of Technology And Sciences</p>
+                            <p class="skill-name"> <span class="skill-type">2021-2023</span><br />Sri Chaithanya Junior College</p>
+                            <p class="skill-name"> <span class="skill-type">2021</span><br /> Vidyalaya Public School</p>
+                        </div>
+                        <div class="d-none" id="achievementsTab">
+                            <li class="skill-name mt-5 mb-3">Secured 3rd place in coding event</li>
+                            <li class="skill-name">Secured 3rd place in web hackathon</li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid my-projects-bg-container pb-5 d-flex align-items-center" id="projectsSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="project-card-title">My Projects</h1>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="project-card p-3 mt-3 mt-4">
+                        <h1 class="project-card-title">Food Munch Application</h1>
+                        <p class="project-card-description">Food Munch is a fully responsive and visually appealing food delivery website built using HTML, CSS, Bootstrap, and JavaScript. It features a sleek landing page with a banner section, smooth navigation, and multiple sections like "Why Choose Us", "Explore Menu", and "Delivery & Payment" to enhance user experience. The design emphasizes user engagement with interactive UI elements, optimized layout for different screen sizes, and clear call-to-action buttons for seamless access to menu and ordering.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="project-card p-3 mt-3 mt-4">
+                        <h1 class="project-card-title">Todo-List Application</h1>
+                        <p class="project-card-description">Todo App is a responsive task management tool developed using HTML, CSS, Bootstrap, and JavaScript. The application allows users to add, delete, and mark tasks as completed. It uses localStorage to persist data, ensuring that tasks remain available even after page reloads. The app includes a clean and user-friendly interface with a list of tasks, checkboxes to mark completion, and delete buttons for task removal. This project demonstrates skills in DOM manipulation, localStorage handling.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="project-card p-3 mt-3 mt-4">
+                        <h1 class="project-card-title">Wikipedia-Search</h1>
+                        <p class="project-card-description">Wikipedia Search Application is a dynamic and responsive web tool developed using HTML, CSS, Bootstrap, and JavaScript. It allows users to search for any topic and fetches real-time results from the Wikipedia API. The application includes a styled input field, responsive layout, loading spinner, and neatly organized search results. It showcases proficiency in API handling, DOM manipulation, and modern front-end development techniques. The project emphasizes clean UI design and seamless user interaction.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="project-card p-3 mt-3 mt-4">
+                        <h1 class="project-card-title">Random Joke Generator</h1>
+                        <p class="project-card-description">Random Joke Generator is an engaging, interactive web app built with HTML, CSS, Bootstrap, and JavaScript. It features a simple yet design with a central area for displaying jokes, a stylish button for fetching new jokes, and a smooth spinner animation for enhanced user experience. The app retrieves jokes from an API, ensuring real-time content updates and interactivity. This project highlights in API integration, DOM manipulation, responsive UI design, and dynamic content rendering.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid contact-me-section-bg-container pb-5 d-flex align-items-center" id="contactSection">
+        <div class="container text-white">
+            <div class="row">
+                <div class="col-6 col-md-5">
+                    <h1 class="contact-me-title  mt-4 mb-4">Contact Me</h1>
+                    <div>
+                        <div class="d-flex align-items-center mb-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#FF004D" class="bi bi-send-fill" viewBox="0 0 16 16">
+                                <path d="M15.964.686a.5.5 0 0 0-.65-.65L.767 5.855H.766l-.452.18a.5.5 0 0 0-.082.887l.41.26.001.002 4.995 3.178 3.178 4.995.002.002.26.41a.5.5 0 0 0 .886-.083zm-1.833 1.89L6.637 10.07l-.215-.338a.5.5 0 0 0-.154-.154l-.338-.215 7.494-7.494 1.178-.471z" />
+                            </svg>
+                            <p class="ml-3 mb-0">dileepmunji1@gmail.com</p>
+                        </div>
+
+                        <div class="d-flex align-items-center mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#FF004D" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
+                            </svg>
+                            <p class="ml-3 mb-0">+91 9347272934</p>
+                        </div>
+                        <div class="flex">
+
+                            <a href="https://linkedin.com/in/dileep-munji" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-linkedin mr-4 linkedin-icon" viewBox="0 0 16 16">
+                                    <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                                </svg>
+                            </a>
+                            <a href="https://github.com/DileepMunji" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-github mr-4 github-icon" viewBox="0 0 16 16">
+                                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                                </svg>
+                            </a>
+                            <a href="https://x.com/dileep84084025" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-twitter-x twitter-icon" viewBox="0 0 16 16">
+                                    <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
+                                </svg>
+                            </a>
+
+                        </div>
+                        <div class="mt-5">
+                            <a href="https://drive.google.com/uc?export=download&id=1m8HwSJybhhmLqmnS80XEux0ByEJbbnIx" download="Dileep_Munji_Resume.pdf">
+                                <button class="download-resume">Download Resume</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-7 mt-5">
+                    <form id="myForm">
+                        <input placeholder="Your Name" id="nameEl" class="input-el mb-4 form-control" />
+                        <input placeholder="Your Email" id="emailEl" class="input-el mb-4 form-control" />
+                        <textarea placeholder="Your Message" id="messageEl" rows="5" class="form-control input-el"></textarea>
+                        <div class="text-center mt-4">
+                            <button class="submit-btn">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script> <!-- Your own JS file -->
+</body>
+
+</html>
