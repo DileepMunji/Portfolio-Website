@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.nav-text {
+    position: relative;
+}
+
+.nav-text::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    /* just under the letters */
+    width: 0;
+    height: 2px;
+    background: #FF004D;
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover .nav-text::after {
+    width: 100%;
+    /* only under the text span */
+}
+
+#navItem2 {
+    color: white;
+}
+
+#navItem3 {
+    color: white;
+}
+
+#navItem4 {
+    color: white;
+}
+
+#navItem5 {
+    color: white;
+}
+
+.logo {
+    font-family: "Roboto";
+    font-size: 32px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.logo-span {
+    color: #FF004D;
+}
+
+.navbar {
+    background-color: #0A0A0A !important;
+}
+
+.navbar-toggler {
+    border: none;
+
+}
+
+.navbar-toggler-icon {
+    background-image: none !important;
+    width: 30px;
+    height: 2px;
+    background-color: #fff;
+    position: relative;
+    display: inline-block;
+}
+
+.navbar-toggler-icon::before,
+.navbar-toggler-icon::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+}
+
+.navbar-toggler-icon::before {
+    top: -8px;
+}
+
+.navbar-toggler-icon::after {
+    top: 8px;
+}
+
+.profile-img {
+    height: 500px;
+    width: 400px;
+    border-radius: 8px;
+}
+
+
+
+.banner-section-bg-container {
+    background-color: #0A0A0A !important;
+    height: 100vh;
+}
+
+.role {
+    font-family: "Roboto";
+    font-size: 32px;
+    color: white;
+    margin-top: 30px;
+}
+
+.dileep-span {
+    color: #FF004D;
+}
+
+.about-me-title {
+    font-family: "Roboto";
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.about-me-description {
+    font-family: "Roboto";
+    font-size: 13px;
+    color: #a1a7a1;
+}
+
+.about-me-section-tabs {
+    border: none !important;
+    background-color: transparent !important;
+    margin-right: 28px;
+    color: #a1a7a1 !important;
+    outline: none !important;
+}
+
+
+
+.skill-type {
+    color: #FF004D;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+.skill-name {
+    color: #a1a7a1;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+.tab-recolor {
+    color: #FF004D !important;
+}
+
+.my-projects-bg-container {
+    background-color: #0A0A0A !important;
+
+}
+
+.my-projects-title {
+    color: white !important;
+    font-family: "Roboto";
+    font-size: 32px;
+}
+
+
+.project-card {
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    color: #dcdcdc;
+    transition: background-color 0.3s ease, transform 0.3s ease, color 0.3s ease;
+}
+
+.project-card:hover {
+    background-color: #FF004D !important;
+    color: #b0b0b0 !important;
+    transform: translateY(-10px) scale(1.05);
+}
+
+
+
+.project-card-title {
+    font-weight: bold;
+    font-size: 32px;
+    color: white !important;
+}
+
+.project-card-description {
+    color: #a1a7a1;
+}
+
+.contact-me-section-bg-container {
+    background-color: #0A0A0A !important;
+}
+
+.contact-me-title {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.linkedin-icon {
+    transition: color 0.5s ease, transform 0.5s ease;
+    color: #ffffff !important;
+}
+
+.linkedin-icon:hover {
+    color: #FF004D !important;
+    transform: translateY(-10px) scale(1.05);
+}
+
+.github-icon {
+    transition: color 0.5s ease, transform 0.5s ease;
+    color: #ffffff !important;
+}
+
+.github-icon:hover {
+    color: #FF004D !important;
+    transform: translateY(-10px) scale(1.05);
+}
+
+.twitter-icon {
+    transition: color 0.5s ease, transform 0.5s ease;
+    color: #ffffff !important;
+}
+
+.twitter-icon:hover {
+    color: #FF004D !important;
+    transform: translateY(-10px) scale(1.05);
+}
+
+.download-resume {
+    border-radius: 6px;
+    border-color: #FF004D !important;
+    border-style: solid;
+    border-width: 1px;
+    background-color: transparent;
+    color: white;
+    font-family: "Roboto";
+    font-size: 11px;
+    height: 40px;
+    width: 180px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.download-resume:hover {
+    background-color: #FF004D !important;
+    transform: scale(1.05);
+}
+
+.input-el {
+    background-color: #242424 !important;
+    height: 40px;
+    border-color: #FF004D !important;
+    color: white !important;
+}
+
+.submit-btn {
+    background-color: #FF004D !important;
+    border-width: 0px;
+    height: 40px;
+    width: 140px;
+    border-radius: 6px;
+    color: white;
+}
