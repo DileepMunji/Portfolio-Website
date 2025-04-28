@@ -11,7 +11,7 @@ You can see the live version of the portfolio here: [Live Link](#)
 - **Responsive Design**: Works perfectly on all devices.
 - **Animated UI**: Smooth transitions.
 - **Tabbed About Section**: Showcasing Skills, Education, Certifications, and Achievements.
-- **Projects Showcase**: Highlighting key personal and academic projects.
+- **Projects Showcase**: Highlighting key personal projects.
 - **Contact Section**: Easy to reach out with integrated EmailJS and social media links.
 
 ## Tech Stack
